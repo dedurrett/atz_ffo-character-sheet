@@ -1,0 +1,100 @@
+.charsheet {
+    background-color: black;
+    color: white;
+}
+
+.charsheet hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+}
+
+.charsheet label {
+	display: inline-block;
+	text-align: right;
+	vertical-align: bottom;
+	margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.charsheet input, select {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	vertical-align: bottom;
+	margin: 0;
+	font-weight:bold;
+    background-color: black;
+    color: silver;
+} 
+
+.charsheet textarea {
+	display: inline-block;
+    width=150px;
+	height=20px;
+	resize: none;
+	font-weight:bold;
+    background-color: black;
+    color: silver;
+}  
+
+.charsheet label.sheet-title {
+	display: inline-block;
+	text-align: center;
+}
+
+.charsheet label.sheet-tableheader {
+	display: inline-block;
+	text-align: left;
+	vertical-align: bottom;
+	margin: 0;
+}
+
+.charsheet label.sheet-small {
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+	vertical-align: bottom;
+	margin: 0;
+}
+
+.charsheet input.sheet-large {
+	display: inline-block;
+	width: 240px;
+	text-align: left;
+	vertical-align: bottom;
+	margin: 0;
+}  
+
+.charsheet input.sheet-small {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+	vertical-align: bottom;
+	margin: 0;
+}
+
+.charsheet input.sheet-guns {
+	display: inline-block;
+	width: 75px;
+	text-align: center;
+	vertical-align: bottom;
+	margin: 0;
+}
+
+.charsheet table {
+	display: inline-block;
+	width: 840px;
+}
+
+.charsheet table.sheet-nested {
+	display: inline-block;
+	width: 400px;
+}
+.charsheet th {
+	display: inline-block;
+	width: 840px;
+	text-align: center;
+}
