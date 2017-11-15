@@ -1,0 +1,171 @@
+<table>
+    <tr>
+        <th><label class="sheet-title">All Things Zombie - Final Fade Out</label><br/><label class="sheet-title">Character Record Sheet</label></th>
+    </tr>
+</table>
+<hr/>
+<table>
+    <tr>
+        <td><label>Name:</label></td>
+        <td colspan="3"><input type="text" name="attr_charName" class="sheet-large"/></td>
+        <td><label>Type:</label></td>
+        <td>
+            <select name="attr_charTypeA">
+                <option value="Star">Star</option>
+                <option value="Star">Co-Star</option>
+                <option value="Grunt">Grunt</option>
+            </select>
+        </td>
+        <td>
+            <select name="attr_charTypeB">
+                <option value="Civilian">Citizen</option>
+                <option value="Survivor">Survivor</option>
+                <option value="Ganger">Ganger</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Gender:</label></td>
+        <td><input type="text" name="attr_charGender"/></td>
+        <td><label>Age:</label></td>
+        <td><input type="text" name="attr_charAge" class="sheet-small"/></td>
+        <td><label>Handedness:</label></td>
+        <td>
+            <select name="attr_charHanded">
+                <option value="Right Handed">Right Handed</option>
+                <option value="Left Handed">Left Handed</option>
+                <option value="Ambidextrous">Ambidextrous</option>
+            </select>
+        </td>
+    </tr>
+</table>
+<hr/>
+<table>
+    <tr>
+        <td><label class="sheet-small">REP:</label></td>
+        <td><input type="text" name="attr_charReputation" class="sheet-small"/></td>
+        <td><label class="sheet-small">PPL:</label></td>
+        <td><input type="text" name="attr_charPeople" class="sheet-small"/></td>
+        <td><label class="sheet-small">SVY:</label></td>
+        <td><input type="text" name="attr_charSavvy" class="sheet-small"/></td>
+        <td><label class="sheet-small">FIT:</label></td>
+        <td><input type="text" name="attr_charFitness" class="sheet-small"/></td>
+        <td><label class="sheet-small">DRV:</label></td>
+        <td><input type="text" name="attr_charDrive" class="sheet-small"/></td>
+        <td><label class="sheet-small">FGT:</label></td>
+        <td><input type="text" name="attr_charFight" class="sheet-small"/></td>
+        <td><label class="sheet-small">SHT:</label></td>
+        <td><input type="text" name="attr_charShoot" class="sheet-small"/></td>
+    </tr>
+</table>
+<hr/>
+<table>
+    <tr>
+        <td>
+            <table class="sheet-nested">
+                <tr>
+                    <label class="sheet-tableheader">Attribute</label>
+                    <td><input type="text" name="attr_charAttr1"/><textarea  rows="1" cols="25" name="attr_charAttr1Text"></textarea></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table class="sheet-nested">
+                <tr>
+                    <label class="sheet-tableheader">Attribute</label>
+                    <td><input type="text" name="attr_charAttr2"/><textarea  rows="1" cols="25" name="attr_charAttr2Text"></textarea></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<hr/>
+<table>
+    <tr>
+        <td>
+            <table class="sheet-nested">
+                <tr>
+                    <td><label class="sheet-tableheader">Firearm</label></td>
+                    <td><label class="sheet-tableheader">Range</label></td>
+                    <td><label class="sheet-tableheader">Targets</label></td>
+                    <td><label class="sheet-tableheader">Impact</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="attr_gun1Name"/></td>
+                    <td><input type="text" name="attr_gun1Range" class="sheet-guns"/></td>
+                    <td><input type="text" name="attr_gun1Target" class="sheet-guns"/></td>
+                    <td><input type="text" name="attr_gun1Impact" class="sheet-guns"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="attr_gun2Name"/></td>
+                    <td><input type="text" name="attr_gun2Range" class="sheet-guns"/></td>
+                    <td><input type="text" name="attr_gun2Target" class="sheet-guns"/></td>
+                    <td><input type="text" name="attr_gun2Impact" class="sheet-guns"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="attr_gun3Name"/></td>
+                    <td><input type="text" name="attr_gun3Range" class="sheet-guns"/></td>
+                    <td><input type="text" name="attr_gun3Target" class="sheet-guns"/></td>
+                    <td><input type="text" name="attr_gun3Impact" class="sheet-guns"/></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table class="sheet-nested">
+                 <tr>
+                    <td><label class="sheet-tableheader">Melee</label></td>
+                    <td><label class="sheet-tableheader">Type</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="attr_bat1Name"/></td>
+                    <td>
+                        <select name="attr_bat1Type">
+                            <option value="Unarmed">Unarmed</option>
+                            <option value="Improvised">Improvised</option>
+                            <option value="One Handed">One Handed</option>
+                            <option value="Two Handed">Two Handed</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="attr_bat2Name"/></td>
+                    <td>
+                        <select name="attr_bat2Type">
+                            <option value="Unarmed">Unarmed</option>
+                            <option value="Improvised">Improvised</option>
+                            <option value="One Handed">One Handed</option>
+                            <option value="Two Handed">Two Handed</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="attr_bat3Name"/></td>
+                    <td>
+                        <select name="attr_bat3Type">
+                            <option value="Unarmed">Unarmed</option>
+                            <option value="Improvised">Improvised</option>
+                            <option value="One Handed">One Handed</option>
+                            <option value="Two Handed">Two Handed</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<hr/>
+<table>
+    <tr>
+        <td><label class="sheet-small">ARMR:</label></td>
+        <td><input type="text" name="attr_resArmor" class="sheet-small"/></td>
+        <td><label class="sheet-small">FOOD:</label></td>
+        <td><input type="text" name="attr_resFood" class="sheet-small"/></td>
+        <td><label class="sheet-small">FUEL:</label></td>
+        <td><input type="text" name="attr_resFuel" class="sheet-small"/></td>
+        <td><label class="sheet-small">LXRY:</label></td>
+        <td><input type="text" name="attr_resLuxury" class="sheet-small"/></td>
+        <td><label class="sheet-small">MEDS:</label></td>
+        <td><input type="text" name="attr_resMeds" class="sheet-small"/></td>
+    </tr>
+</table>
+<label style="color:silver; font-size:8px">Houserules and Basic Layout from Vampifan</label>
